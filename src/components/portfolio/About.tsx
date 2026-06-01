@@ -3,7 +3,7 @@ import { GraduationCap, Target, Heart, Rocket } from "lucide-react";
 import { Section } from "./Section";
 
 const cards = [
-  { icon: GraduationCap, title: "IT Student", desc: "BSc in Information Technology, focusing on software engineering and human-computer interaction." },
+  { icon: GraduationCap, title: "IT Undergraduate", desc: "IT undergraduate and aspiring software developer focused on building modern web, mobile, and desktop applications." },
   { icon: Heart, title: "Passion", desc: "Obsessed with crafting delightful interfaces and writing maintainable, well-tested code." },
   { icon: Target, title: "Career Goals", desc: "Become a senior full-stack engineer building products used by millions worldwide." },
   { icon: Rocket, title: "Always Learning", desc: "Currently exploring AI integrations, system design, and cloud-native architectures." },
