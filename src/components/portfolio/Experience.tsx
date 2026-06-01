@@ -3,11 +3,13 @@ import { GraduationCap, Briefcase, Award, Trophy } from "lucide-react";
 import { Section } from "./Section";
 
 const items = [
-  { icon: GraduationCap, type: "Education", title: "BSc in Information Technology", org: "State University of Technology", date: "2022 — 2026", desc: "Focus on software engineering, algorithms, and human-computer interaction. GPA 3.8/4.0." },
-  { icon: Briefcase, type: "Internship", title: "Software Engineering Intern", org: "Northwind Labs", date: "Summer 2024", desc: "Shipped a customer-facing dashboard used by 12k+ users. Reduced API latency by 38%." },
-  { icon: Award, type: "Certification", title: "AWS Certified Cloud Practitioner", org: "Amazon Web Services", date: "2024", desc: "Foundational cloud architecture and serverless patterns." },
-  { icon: Trophy, type: "Achievement", title: "1st Place — University Hackathon", org: "DevFest 2023", date: "2023", desc: "Built an accessibility-first study app in 36 hours, beating 40+ teams." },
-  { icon: Briefcase, type: "Freelance", title: "Frontend Developer", org: "Various Clients", date: "2023 — Present", desc: "Delivered 10+ marketing sites and web apps with a 100% on-time record." },
+  { icon: GraduationCap, type: "Education", title: "BICT(Hons) - Information Communication Technology", org: "Rajarata University of Sri Lanka", date: "2021 — 2025", desc: "Focus on software engineering, algorithms, and human-computer interaction." },
+  { icon: Briefcase, type: "Internship", title: "Web Developer - Intern", org: "Softwareplus Pvt Ltd", date: "May - November 2025", desc: "Gained hands-on experience in software development practices, version control, debugging, and working in a collaborative development environment." },
+  { icon: Award, type: "Certification", title: "Full Stack E-Commerce Project", org: "GreatStack", date: "2025", desc: "Developed a full-stack e-commerce platform using modern web technologies." },
+  { icon: Award, type: "Certification", title: "Introduction to Generative AI Studio", org: "GoogleCloud–Simplilearn", date: "2025", desc: "Learned the fundamentals of generative AI and its applications in creative workflows." },
+  { icon: Award, type: "Certification", title: "Computer Science: Programming with a Purpose", org: "Coursera", date: "2025", desc: "Explored the principles of computer science through hands-on programming projects." },
+  { icon: Trophy, type: "Achievement", title: "Python for Beginners", org: " MicrosoftLearn", date: "2024", desc: "Completed the course with distinction, demonstrating proficiency in Python programming." },
+  //{ icon: Briefcase, type: "Freelance", title: "Frontend Developer", org: "Various Clients", date: "2023 — Present", desc: "Delivered 10+ marketing sites and web apps with a 100% on-time record." },
 ];
 
 export const Experience = () => (
