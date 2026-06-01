@@ -37,7 +37,7 @@ export const Navbar = () => {
           <span className="w-9 h-9 rounded-xl bg-[image:var(--gradient-primary)] grid place-items-center text-primary-foreground">
             <Code2 className="w-5 h-5" />
           </span>
-          <span className="text-gradient">Alex.dev</span>
+          <span className="text-gradient">Hsy.dev</span>
         </a>
 
         <ul className="hidden lg:flex items-center gap-1">

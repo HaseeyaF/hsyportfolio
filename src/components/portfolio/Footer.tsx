@@ -11,7 +11,7 @@ export const Footer = () => (
             <span className="w-9 h-9 rounded-xl bg-[image:var(--gradient-primary)] grid place-items-center text-primary-foreground">
               <Code2 className="w-5 h-5" />
             </span>
-            <span className="text-gradient">Alex.dev</span>
+            <span className="text-gradient">Hsy.dev</span>
           </a>
           <p className="text-sm text-muted-foreground max-w-sm">Building modern, accessible, and delightful software products.</p>
         </div>
@@ -35,7 +35,7 @@ export const Footer = () => (
         </div>
       </div>
       <div className="flex items-center justify-between pt-6 border-t border-border/50 text-sm text-muted-foreground">
-        <span>© {new Date().getFullYear()} Alex Carter. Crafted with care.</span>
+        <span>© {new Date().getFullYear()} Hsy.dev. Crafted with care.</span>
         <a href="#home" className="w-10 h-10 rounded-xl glass grid place-items-center hover:text-primary hover:scale-110 transition-all" aria-label="Back to top">
           <ArrowUp className="w-4 h-4" />
         </a>
