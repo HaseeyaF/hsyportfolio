@@ -6,10 +6,9 @@ import portrait from "@/assets/hero-portrait.jpg";
 
 const titles = [
   "Software Developer",
-  "Full Stack Engineer",
   "Mobile App Developer",
+  "Full Stack Engineer",
   "QA Engineer",
-  "UI/UX Enthusiast",
 ];
 
 const useTyping = () => {
@@ -61,11 +60,11 @@ export const Hero = () => {
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <span className="inline-flex items-center gap-2 glass px-4 py-2 rounded-full text-xs font-mono mb-6">
             <span className="w-2 h-2 rounded-full bg-secondary animate-pulse" />
-            Available for internships & freelance
+            Available for internships, entry-level opportunities, and freelance projects
           </span>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-[1.05]">
-            Hi, I'm <span className="text-gradient">Alex Carter</span>
+            Hi, I'm <span className="text-gradient">Haseeya Farwin</span>
           </h1>
 
           <h2 className="mt-4 text-2xl md:text-3xl font-display text-muted-foreground h-[1.5em]">
@@ -74,9 +73,7 @@ export const Hero = () => {
           </h2>
 
           <p className="mt-6 text-lg text-muted-foreground max-w-xl leading-relaxed">
-            IT student & aspiring software engineer crafting performant, accessible, and beautiful
-            web and mobile experiences. Passionate about clean code, modern design, and shipping
-            products that matter.
+            IT undergraduate & aspiring developer building modern web and mobile applications with a focus on clean code, performance, and user experience.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -108,15 +105,15 @@ export const Hero = () => {
         >
           <div className="absolute inset-0 -m-6 rounded-full bg-[image:var(--gradient-aurora)] blur-3xl opacity-50 animate-glow-pulse" />
           <div className="relative w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden ring-4 ring-primary/30 glow-primary">
-            <img src={portrait} alt="Alex Carter portrait" width={768} height={896} className="w-full h-full object-cover" />
+            <img src={portrait} alt="Haseeya Farwin portrait" width={768} height={896} className="w-full h-full object-cover" />
           </div>
           <div className="absolute -top-4 -right-4 glass rounded-2xl px-4 py-3 text-sm font-mono">
             <div className="text-secondary">{"<dev/>"}</div>
-            <div className="text-xs text-muted-foreground">3+ years coding</div>
+            <div className="text-xs text-muted-foreground">2+ years coding</div>
           </div>
           <div className="absolute -bottom-4 -left-4 glass rounded-2xl px-4 py-3 text-sm font-mono">
-            <div className="text-accent">20+ projects</div>
-            <div className="text-xs text-muted-foreground">shipped</div>
+            <div className="text-accent">10+ projects</div>
+            {/* <div className="text-xs text-muted-foreground">shipped</div>*/}
           </div>
         </motion.div>
       </div>
